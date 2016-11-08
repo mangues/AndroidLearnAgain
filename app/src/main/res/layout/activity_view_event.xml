@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_event"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mangues.view.ViewEventActivity">
+
+    <!--<com.mangues.view.view.VelocityTrackerView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:clickable="true">-->
+    <!--</com.mangues.view.view.VelocityTrackerView>-->
+
+     <!--<com.mangues.view.view.ScrollerView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+         <!--android:background="@color/colorPrimary"-->
+        <!--android:clickable="true">-->
+         <!--<TextView-->
+             <!--android:layout_width="wrap_content"-->
+             <!--android:layout_height="wrap_content"-->
+             <!--android:text="12313123123123213213213123dwdwe"/>-->
+    <!--</com.mangues.view.view.ScrollerView>-->
+<com.mangues.view.view.ScrollerLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+         android:background="@color/colorPrimary"
+        android:clickable="true">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="12313123123123213213213123dwdwe"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="eeeeeweweweweewe"/>
+    </com.mangues.view.view.ScrollerLayout>
+
+</android.support.constraint.ConstraintLayout>
