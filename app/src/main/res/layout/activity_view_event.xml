@@ -23,20 +23,28 @@
              <!--android:layout_height="wrap_content"-->
              <!--android:text="12313123123123213213213123dwdwe"/>-->
     <!--</com.mangues.view.view.ScrollerView>-->
-<com.mangues.view.view.ScrollerLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-         android:background="@color/colorPrimary"
-        android:clickable="true">
-         <TextView
-             android:layout_width="match_parent"
-             android:layout_height="wrap_content"
-             android:text="12313123123123213213213123dwdwe"/>
+<!--<com.mangues.view.view.ScrollerLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="50dp"-->
+         <!--android:background="@color/colorPrimary"-->
+        <!--android:clickable="true">-->
+         <!--<TextView-->
+             <!--android:layout_width="match_parent"-->
+             <!--android:layout_height="wrap_content"-->
+             <!--android:text="12313123123123213213213123dwdwe"/>-->
 
-    <TextView
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="eeeeeweweweweewe"/>-->
+    <!--</com.mangues.view.view.ScrollerLayout>-->
+
+    <com.mangues.view.view.SwipeDismissListView
+        android:id="@+id/swipeDismissListView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="eeeeeweweweweewe"/>
-    </com.mangues.view.view.ScrollerLayout>
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        android:cacheColorHint="@android:color/transparent">
+    </com.mangues.view.view.SwipeDismissListView>
 
 </android.support.constraint.ConstraintLayout>

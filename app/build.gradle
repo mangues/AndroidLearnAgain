@@ -27,11 +27,10 @@ dependencies {
     final RX_VERSION = '1.1.0'
     compile "io.reactivex:rxandroid:$RX_VERSION"
     compile "io.reactivex:rxjava:$RX_VERSION"
+    compile files('libs/nineoldandroids-2.4.0.jar')
     compile 'com.android.support:appcompat-v7:24.2.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
     compile 'de.greenrobot:eventbus:2.4.0'
     compile 'com.squareup.okhttp:okhttp:2.4.0'
     compile 'com.squareup.okio:okio:1.5.0'
     testCompile 'junit:junit:4.12'
-    compile files('libs/nineoldandroids-2.4.0.jar')
 }
