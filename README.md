@@ -13,3 +13,7 @@ com.mangues.okhttp包里面是okhttp的入门demo 也是主要是为了 我学�
 
 com.mangues.view包里面是view的自定义,主要是自定义中view重绘,没有组合和继承方面的自定义控件。还有就是view的事件机制:
                 包括VelocityTracker,GestureDetector,Scroller,还有事件传递的学习
+                
+***
+                
+com.mangues.fragment     fragment切换 replace、hide（show）、栈       
